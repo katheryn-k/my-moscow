@@ -13,7 +13,40 @@
 </head>
 <body>
     <!-- header -->
-    <header class="header" id="home"></header>
+    <header class="header vh-100" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-mb-12 col-sm-12">
+                    <nav class="header__nav navbar navbar-expand-lg navbar-light text-center">
+                        <img class="header__logo mt-2 mb-2 mr-3 bg-white" src="./assets/icons/kremlin.png" alt="kremlin">
+                        <a class="header__logo__text navbar-brand text-uppercase text-white" href="#home">My-Moscow</a>
+                        <button class="header__navbar__toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="header__toggler navbar-toggler-icon p-3"></span>
+                        </button>
+                        <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0 text-uppercase">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-white" href="#home">Главная <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#features">Наши услуги</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#about">О компании</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#contact">Контакты</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#reviews">Отзывы</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <!-- main -->
     <main class="main"></main>
@@ -32,5 +65,9 @@
 
     <!-- footer -->
     <footer class="footer"></footer>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </body>
 </html>
