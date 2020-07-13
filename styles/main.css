@@ -1,1 +1,31 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+/* colors */
+.header {
+  font-family: 'Tenor Sans', sans-serif;
+  background: url(../assets/photos/mike-kononov-OyBc1vQMwXE-unsplash.jpg) center center/cover no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: 0 100vh rgba(0, 0, 0, 0.625) inset;
+          box-shadow: 0 100vh rgba(0, 0, 0, 0.625) inset;
+}
+
+.header__logo {
+  max-width: 63px;
+  max-height: 63px;
+  border-radius: 50%;
+}
+
+.header__navbar__toggler {
+  background: #ffff;
+}
+
+.header__toggler {
+  border-radius: 5%;
+}
+
+.header__content {
+  position: relative;
+  top: 200px;
+}
+/*# sourceMappingURL=main.css.map */

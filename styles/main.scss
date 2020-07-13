@@ -1,0 +1,30 @@
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+/* colors */
+$white__color: #ffff;
+
+
+.header {
+    font-family: 'Tenor Sans', sans-serif;
+    background: url(../assets/photos/mike-kononov-OyBc1vQMwXE-unsplash.jpg) center center / cover no-repeat;
+    background-attachment: fixed;
+    box-shadow:0 100vh rgba(0, 0, 0, 0.625) inset;
+    &__logo {
+        max-width: 63px;
+        max-height: 63px;
+        border-radius: 50%;
+    }
+    &__navbar__toggler {
+        background: $white__color;
+    }
+    &__toggler {
+        border-radius: 5%;
+    }
+    &__content {
+        position: relative;
+        top: 200px;
+    }
+}
