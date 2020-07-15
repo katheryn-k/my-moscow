@@ -20,6 +20,23 @@ $bg__color: #EAEAEA;
         max-height: 63px;
         border-radius: 50%;
     }
+    &__nav__link{
+        &::after {
+            content: "";
+            position: relative;
+            display: block;
+            width: 0px;
+            height: 2px;
+            margin: 2px auto;
+            border-radius: 50%;
+            background: $white__color;
+            transition: width .3s ease-in-out;
+        }
+        &:hover::after,
+        &:focus::after {
+            width: 70px;
+        }
+    }
     &__navbar__toggler {
         background: $white__color;
     }

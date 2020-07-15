@@ -16,6 +16,23 @@
   border-radius: 50%;
 }
 
+.header__nav__link::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 2px;
+  margin: 2px auto;
+  border-radius: 50%;
+  background: #ffff;
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+
+.header__nav__link:hover::after, .header__nav__link:focus::after {
+  width: 70px;
+}
+
 .header__navbar__toggler {
   background: #ffff;
 }
