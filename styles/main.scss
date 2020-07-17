@@ -43,9 +43,18 @@ $bg__color: #EAEAEA;
     &__toggler {
         border-radius: 5%;
     }
+    &__collapse {
+        transition: display .2s ease-in-out;
+    }
+    &__navbar-nav {
+        right: 0;
+    }
     &__content {
-        position: relative;
         top: 200px;
+        &__title {
+            margin-top: 50px;
+            font-size: 7vw;
+        }
     }
 }
 .main {

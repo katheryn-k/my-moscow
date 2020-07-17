@@ -41,9 +41,22 @@
   border-radius: 5%;
 }
 
+.header__collapse {
+  -webkit-transition: display .2s ease-in-out;
+  transition: display .2s ease-in-out;
+}
+
+.header__navbar-nav {
+  right: 0;
+}
+
 .header__content {
-  position: relative;
   top: 200px;
+}
+
+.header__content__title {
+  margin-top: 50px;
+  font-size: 7vw;
 }
 
 .main {
