@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- animate.css -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <!-- main styles -->
+    <link rel="stylesheet" href="./styles/trips.css">
+    <title>My-Moscow Trips</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header vh-100" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-mb-12 col-sm-12">
+                    <nav class="header__nav navbar navbar-expand-lg navbar-light text-center">
+                        <img class="header__logo mt-2 mb-2 mr-3 bg-white" src="./assets/icons/kremlin.png" alt="kremlin">
+                        <a class="header__logo__text navbar-brand text-uppercase text-white" href="#home">My-Moscow</a>
+                        <button class="header__navbar__toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="header__toggler navbar-toggler-icon p-3"></span>
+                        </button>
+                        <div class="header__collapse collapse navbar-collapse text-center" id="navbarTogglerDemo02">
+                            <ul class="header__navbar-nav navbar-nav position-absolute d-flex align-items-end ml-auto mt-2 mt-lg-0 text-uppercase">
+                                <li class="header__nav__item nav-item active">
+                                    <a class="header__nav__link nav-link text-white" href="#home">Главная <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="header__nav__item nav-item">
+                                    <a class="header__nav__link nav-link text-white" href="#features">Наши услуги</a>
+                                </li>
+                                <li class="header__nav__item nav-item">
+                                    <a class="header__nav__link nav-link text-white" href="#about">О компании</a>
+                                </li>
+                                <li class="header__nav__item nav-item">
+                                    <a class="header__nav__link nav-link text-white" href="#contact">Контакты</a>
+                                </li>
+                                <li class="header__nav__item nav-item">
+                                    <a class="header__nav__link nav-link text-white" href="#reviews">Отзывы</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row d-flex flex-column justify-content-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 mx-auto">
+                    <div class="header__content position-relative text-white">
+                        <h1 class="header__content__title header__title text-uppercase wow animate__animated animate__fadeInDown">
+                            Необычная Москва
+                        </h1>
+                        <p class="header__content__subtitle header__subtitle h4 lh-lg wow animate__animated animate__fadeInDown">
+                            <span class="header__subtitle_upper text-uppercase">My-Moscow</span> - агенство интересных маршрутов
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main class="main" id="trips"></main>
+       
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="row justify-content-between p-4">
+                <div class="footer__item col-lg-3">
+                    &copy;2018 Copyright. Все права защищены
+                </div>
+                <div class="footer__item col-lg-2">
+                    Designed by Nordic IT School
+                </div>
+                <div class="footer__item col-lg-2 d-flex justify-content-center">
+                    <a class="footer__social-link" href="https://ru-ru.facebook.com/">
+                        <img class="footer__icon bg-white" src="./assets/icons/facebook.png" alt="facebook">
+                    </a>
+                    <a class="footer__social-link" href="https://www.instagram.com/">
+                        <img class="footer__icon bg-white" src="./assets/icons/instagram.png" alt="instagram">
+                    </a>
+                    <a class="footer__social-link" href="https://telegram.org/">
+                        <img class="footer__icon bg-white" src="./assets/icons/telegram.png" alt="telegram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <!-- /bootstrap script -->
+
+    <!-- wow.js -->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--/wow.js -->
+</body>
+</html>
