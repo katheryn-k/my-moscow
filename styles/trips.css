@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+.header {
+  font-family: 'Tenor Sans', sans-serif;
+  background-attachment: fixed;
+  -webkit-box-shadow: 0 100vh rgba(0, 0, 0, 0.625) inset;
+          box-shadow: 0 100vh rgba(0, 0, 0, 0.625) inset;
+}
+
+.header__logo {
+  max-width: 63px;
+  max-height: 63px;
+  border-radius: 50%;
+}
+
+.header__nav__link::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 2px;
+  margin: 2px auto;
+  border-radius: 50%;
+  background: #ffff;
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+
+.header__nav__link:hover::after, .header__nav__link:focus::after {
+  width: 70px;
+}
+
+.header__navbar__toggler {
+  background: #ffff;
+}
+
+.header__toggler {
+  border-radius: 5%;
+}
+
+.header__collapse {
+  -webkit-transition: display .2s ease-in-out;
+  transition: display .2s ease-in-out;
+}
+
+.header__navbar-nav {
+  right: 0;
+}
+
+.header__content {
+  top: 200px;
+}
+
+.header__content__title {
+  margin-top: 50px;
+  font-size: 7vw;
+}
+
+.footer {
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 11px;
+  color: #ffff;
+  background: #292828;
+}
+
+.footer__item {
+  margin: 15px 0;
+}
+
+.footer__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 2px;
+  border-radius: 3%;
+}
+
+.header {
+  background: url(../assets/photos/moscow-6.jpg) center center/cover no-repeat;
+}
+/*# sourceMappingURL=trips.css.map */
