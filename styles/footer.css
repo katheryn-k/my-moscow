@@ -1,0 +1,20 @@
+/* colors */
+.footer {
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 11px;
+  color: #ffff;
+  background: #292828;
+}
+
+.footer__item {
+  margin: 15px 0;
+}
+
+.footer__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 2px;
+  border-radius: 3%;
+}
+/*# sourceMappingURL=footer.css.map */

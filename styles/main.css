@@ -1,10 +1,9 @@
-/* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
-/* colors */
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 .header {
   font-family: 'Tenor Sans', sans-serif;
-  background: url(../assets/photos/mike-kononov-OyBc1vQMwXE-unsplash.jpg) center center/cover no-repeat;
   background-attachment: fixed;
   -webkit-box-shadow: 0 100vh rgba(0, 0, 0, 0.625) inset;
           box-shadow: 0 100vh rgba(0, 0, 0, 0.625) inset;
@@ -57,6 +56,29 @@
 .header__content__title {
   margin-top: 50px;
   font-size: 7vw;
+}
+
+.footer {
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 11px;
+  color: #ffff;
+  background: #292828;
+}
+
+.footer__item {
+  margin: 15px 0;
+}
+
+.footer__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 2px;
+  border-radius: 3%;
+}
+
+.header {
+  background: url(../assets/photos/mike-kononov-OyBc1vQMwXE-unsplash.jpg) center center/cover no-repeat;
 }
 
 .main {
@@ -170,24 +192,5 @@
 
 .contact-us__text, .contact-us__address, .contact-us__date {
   margin: 10px 0;
-}
-
-.footer {
-  font-family: 'Tenor Sans', sans-serif;
-  font-size: 11px;
-  color: #ffff;
-  background: #292828;
-}
-
-.footer__item {
-  margin: 15px 0;
-}
-
-.footer__icon {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  padding: 2px;
-  border-radius: 3%;
 }
 /*# sourceMappingURL=main.css.map */
