@@ -1,0 +1,85 @@
+@import "fonts.scss";
+@import "colors.scss";
+@import "header.scss";
+@import "contact-section.scss";
+@import "footer.scss";
+
+.header {
+    background: url(../assets/photos/roman-manukyan-fSL3ZisKJ88-unsplash.jpg) center center / cover no-repeat;
+}
+.info {
+    font-family: 'Tenor Sans', sans-serif;
+    background: $bg__color;
+    &__title {
+        margin: 5% 0;
+        &::after {
+            content: "";
+            position: relative;
+            display: block;
+            width: 100px;
+            height: 2px;
+            margin: 15px auto;
+            border-radius: 50%;
+            background: $dark-gray__color;
+        }
+    }
+    
+    &__text {
+        padding: 15px 0;
+        line-height: 2;
+        &_item {
+            margin: 30px 0;
+            padding: 0 30px;
+        }
+    }
+    &__managers {
+        &__box {
+            margin: 30% 0;
+        }
+        &__photo {
+            width: 200px;
+            height: 200px;
+            margin: 0 20px;
+            filter: grayscale(1);
+            border: 2px solid $copper-penny__color;
+            border-radius: 50%;
+            transition: filter .3s ease;
+            &:hover {
+                filter: grayscale(0);
+            }
+        }
+        &__email {
+            color: $copper-penny__color;
+        }
+    }
+}
+.main {
+    color: $white__color;
+    background: $copper-penny__color;
+    &__form {
+        margin: 20% 0;
+        font-family: 'Tenor Sans', sans-serif;
+        &__btn {
+            margin: 30px 0;
+            border: 1px solid $dark-gray__color;
+            transition: all .3s ease;
+            &:hover {
+                color: $white__color;
+                background: $dark-gray__color;
+            }
+        }
+    }
+    
+}
+/* @media */
+@media screen and (max-width: 1400px) {
+    .info__managers__box {
+        margin: 20px 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        &_item {
+            margin: 30px 0;
+        }
+    }
+}

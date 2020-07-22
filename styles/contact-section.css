@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+.contact-us {
+  font-family: 'Tenor Sans', sans-serif;
+  background: #ad7260;
+}
+
+.contact-us__icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.contact-us__text, .contact-us__address, .contact-us__mail, .contact-us__phone, .contact-us__date {
+  font-size: 12px;
+}
+
+.contact-us__text, .contact-us__address, .contact-us__date {
+  margin: 10px 0;
+}
+/*# sourceMappingURL=contact-section.css.map */

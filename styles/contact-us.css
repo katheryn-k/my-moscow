@@ -1,1 +1,202 @@
-/* No CSS *//*# sourceMappingURL=contact-us.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+.header {
+  font-family: 'Tenor Sans', sans-serif;
+  background-attachment: fixed;
+  -webkit-box-shadow: 0 100vh rgba(0, 0, 0, 0.625) inset;
+          box-shadow: 0 100vh rgba(0, 0, 0, 0.625) inset;
+}
+
+.header__logo {
+  max-width: 63px;
+  max-height: 63px;
+  border-radius: 50%;
+}
+
+.header__nav__link::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 2px;
+  margin: 2px auto;
+  border-radius: 50%;
+  background: #ffff;
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+
+.header__nav__link:hover::after, .header__nav__link:focus::after {
+  width: 70px;
+}
+
+.header__navbar__toggler {
+  background: #ffff;
+}
+
+.header__toggler {
+  border-radius: 5%;
+}
+
+.header__collapse {
+  -webkit-transition: display .2s ease-in-out;
+  transition: display .2s ease-in-out;
+}
+
+.header__navbar-nav {
+  right: 0;
+}
+
+.header__content {
+  top: 200px;
+}
+
+.header__content__title {
+  margin-top: 50px;
+  font-size: 7vw;
+}
+
+.contact-us {
+  font-family: 'Tenor Sans', sans-serif;
+  background: #ad7260;
+}
+
+.contact-us__icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.contact-us__text, .contact-us__address, .contact-us__mail, .contact-us__phone, .contact-us__date {
+  font-size: 12px;
+}
+
+.contact-us__text, .contact-us__address, .contact-us__date {
+  margin: 10px 0;
+}
+
+.footer {
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 11px;
+  color: #ffff;
+  background: #292828;
+}
+
+.footer__item {
+  margin: 15px 0;
+}
+
+.footer__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 2px;
+  border-radius: 3%;
+}
+
+.header {
+  background: url(../assets/photos/roman-manukyan-fSL3ZisKJ88-unsplash.jpg) center center/cover no-repeat;
+}
+
+.info {
+  font-family: 'Tenor Sans', sans-serif;
+  background: #EAEAEA;
+}
+
+.info__title {
+  margin: 5% 0;
+}
+
+.info__title::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 2px;
+  margin: 15px auto;
+  border-radius: 50%;
+  background: #292828;
+}
+
+.info__text {
+  padding: 15px 0;
+  line-height: 2;
+}
+
+.info__text_item {
+  margin: 30px 0;
+  padding: 0 30px;
+}
+
+.info__managers__box {
+  margin: 30% 0;
+}
+
+.info__managers__photo {
+  width: 200px;
+  height: 200px;
+  margin: 0 20px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  border: 2px solid #ad7260;
+  border-radius: 50%;
+  -webkit-transition: -webkit-filter .3s ease;
+  transition: -webkit-filter .3s ease;
+  transition: filter .3s ease;
+  transition: filter .3s ease, -webkit-filter .3s ease;
+}
+
+.info__managers__photo:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.info__managers__email {
+  color: #ad7260;
+}
+
+.main {
+  color: #ffff;
+  background: #ad7260;
+}
+
+.main__form {
+  margin: 20% 0;
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.main__form__btn {
+  margin: 30px 0;
+  border: 1px solid #292828;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.main__form__btn:hover {
+  color: #ffff;
+  background: #292828;
+}
+
+/* @media */
+@media screen and (max-width: 1400px) {
+  .info__managers__box {
+    margin: 20px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .info__managers__box_item {
+    margin: 30px 0;
+  }
+}
+/*# sourceMappingURL=contact-us.css.map */

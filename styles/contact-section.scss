@@ -1,0 +1,19 @@
+@import "fonts.scss";
+@import "colors.scss";
+
+.contact-us {
+    font-family: 'Tenor Sans', sans-serif;
+    background: $copper-penny__color;
+    &__icon {
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+        border-radius: 50%;
+    }
+    &__text, &__address, &__mail, &__phone, &__date {
+        font-size: 12px;
+    }
+    &__text, &__address, &__date{
+        margin: 10px 0;
+    }
+}
