@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru" style="scroll-behavior: smooth">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- animate.css -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <!-- main styles -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>My-Moscow</title>
+</head>
+<body>
+    <header class="header vh-100" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-mb-12 col-sm-12">
+                    <nav class="header__nav navbar navbar-expand-lg navbar-light text-center">
+                        <img class="header__logo mt-2 mb-2 mr-3 bg-white" src="./assets/icons/kremlin.png" alt="kremlin">
+                        <a class="header__logo__text navbar-brand text-uppercase text-white" href="#home">My-Moscow</a>
+                        <button class="header__navbar__toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="header__toggler navbar-toggler-icon p-3"></span>
+                        </button>
+                        <div class="header__collapse collapse navbar-collapse text-center" id="navbarTogglerDemo02">
+                            <ul class="header__navbar-nav navbar-nav position-absolute d-flex align-items-end ml-auto mt-2 mt-lg-0 text-uppercase">
+                                <li class="header__nav__item nav-item active">
+                                    <a class="header__nav__link nav-link text-white" href="#home">Главная <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="header__nav__item nav-item">
+                                    <a class="header__nav__link nav-link text-white" href="./trips.html">Наши услуги</a>
+                                </li>
+                                <li class="header__nav__item nav-item">
+                                    <a class="header__nav__link nav-link text-white" href="#about">О компании</a>
+                                </li>
+                                <li class="header__nav__item nav-item">
+                                    <a class="header__nav__link nav-link text-white" href="./contact-us.html">Контакты</a>
+                                </li>
+                                <li class="header__nav__item nav-item">
+                                    <a class="header__nav__link nav-link text-white" href="#reviews">Отзывы</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row d-flex flex-column justify-content-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 mx-auto">
+                    <div class="header__content position-relative text-white">
+                        <h1 class="header__content__title header__title text-uppercase wow animate__animated animate__fadeInDown">
+                            Необычная Москва
+                        </h1>
+                        <p class="header__content__subtitle header__subtitle h4 lh-lg wow animate__animated animate__fadeInDown">
+                            <span class="header__subtitle_upper text-uppercase">My-Moscow</span> - агенство интересных маршрутов
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main" id="features">
+        <div class="container pt-5 pb-3">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-10">
+                    <div class="main__wrapper d-flex flex-column text-center">
+                        <h2 class="main__title text-uppercase m-3">
+                            Что мы предлагаем?
+                        </h2>
+                        <p class="main__subtitle m-2">
+                            Наша главная цель - рассказать о Москве так, чтобы это было интересно всем!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container justify-content-center mt-4 pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="main__content__box d-flex wow animate__animated animate__fadeInDown">
+                        <img class="main__content__icon" src="./assets/icons/pin.png" alt="pin">
+                        <div class="main__content__item ml-3">
+                            <h3 class="main__content__item__title text-uppercase h4 mb-3">
+                                Необычные маршруты
+                            </h3>
+                            <p class="main__content__item__text">
+                                Мы обязательно порадуем тебя необычными маршрутами Москвы, 
+                                которые прокладывают наши опытные гиды. Ты увидишь и узнаешь 
+                                о Москве то, что никогда не знал!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="main__content__box d-flex wow animate__animated animate__fadeInDown">
+                        <img class="main__content__icon" src="./assets/icons/russian.png" alt="souvenir">
+                        <div class="main__content__item ml-3">
+                            <h3 class="main__content__item__title text-uppercase h4 mb-3">
+                                Оригинальные сувениры
+                            </h3>
+                            <p class="main__content__item__text">
+                                Отличная новость! У нас появился магазин сувениров!
+                                И самое примечательное, что все эти сувениры мы делаем сами!
+                                Заходи к нам в гости!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="main__content__box d-flex wow animate__animated animate__fadeInDown">
+                        <img class="main__content__icon" src="./assets/icons/compass.png" alt="compass">
+                        <div class="main__content__item ml-3">
+                            <h3 class="main__content__item__title text-uppercase h4 mb-3">
+                                Нестандартные экскурсии
+                            </h3>
+                            <p class="main__content__item__text">
+                                За время экскурсий, которых у нас больше 20, 
+                                ты увидишь все уникальные точки Москвы. Узнаешь редкие факты и сделаешь 
+                                самые классные фотографии.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="main__content__box d-flex wow animate__animated animate__fadeInDown">
+                        <img class="main__content__icon" src="./assets/icons/photo.png" alt="photo">
+                        <div class="main__content__item ml-3">
+                            <h3 class="main__content__item__title text-uppercase h4 mb-3">
+                                Фотосессии в Москве
+                            </h3>
+                            <p class="main__content__item__text">
+                                Команда <span class="text-uppercase">My-Moscow</span> рада провести креативные 
+                                фотосессии в любом уголке Москвы. Неважно, 
+                                свадьба у Вас или просто захотелось добавить в 
+                                ленту Instagram красивых фото.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="main__content__box d-flex wow animate__animated animate__fadeInDown">
+                        <img class="main__content__icon" src="./assets/icons/speaking.png" alt="speaking">
+                        <div class="main__content__item ml-3">
+                            <h3 class="main__content__item__title text-uppercase h4 mb-3">
+                                Новые знакомства
+                            </h3>
+                            <p class="main__content__item__text">
+                                <span class="text-uppercase">My-Moscow</span> - это целая вселенная, где после 
+                                прогулок ты сможешь продолжить общение с теми, 
+                                кому интересна Москва, знакомиться с новыми 
+                                людьми и делиться впечатлениями.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="main__content__box d-flex wow animate__animated animate__fadeInDown">
+                        <img class="main__content__icon" src="./assets/icons/good-vibes.png" alt="good-vibes">
+                        <div class="main__content__item ml-3">
+                            <h3 class="main__content__item__title text-uppercase h4 mb-3">
+                                Яркие впечатления
+                            </h3>
+                            <p class="main__content__item__text">
+                                Самое важное - это яркие эмоции, которые 
+                                останутся с тобой на долгое время! Мы ждем именно тебя! 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="about-us" id="about">
+        <div class="container-fluid m-0 p-0 mw-100">
+            <div class="row d-flex container-fluid m-0 p-0">
+                <div class="col-lg-6 col-md-12 col-sm-12 m-0 p-0 wow animate__animated animate__fadeInLeft animate__delay-1s">
+                    <img class="about-us__photo mx-auto" src="./assets/photos/brooke-cagle--uHVRvDr7pg-unsplash.jpg" alt="happy team">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 wow animate__animated animate__fadeInRight animate__delay-1s">
+                    <div class="about-us__text__box text-white mt-2 mb-1 pt-3 pb-3">
+                        <h3 class="about-us__title pt-3">
+                            Кто мы такие?
+                        </h3>
+                        <p class="about-us__text pt-3">
+                            Мы - команда тех, кто любит историю и любит Москву.
+                        </p>
+                        <p class="about-us__text pt-3">
+                            Москва – это не только место по «взращиванию карьеры», 
+                            а еще и бесконечно красивые памятники природы, парки, заповедники. 
+                            Активный отдых в Москве и Подмосковье – это отличная возможность вырваться из 
+                            душного мегаполиса куда-нибудь в «дебри», навстречу приключениям. К счастью, 
+                            не все Подмосковье еще «облагорожено» асфальтными дорожками и высоченными 
+                            коттеджными заборами. Еще встречаются места, настолько глухие и далекие, что, 
+                            очутившись там, кажется, что ты – первый человек, ступивший на эту землю.
+                        </p>
+                        <p class="about-us__text">
+                            Там, где не проедет автомобилист и даже велосипедист, 
+                            найдет лазейку и откроет для себя все красоты 100% бездорожья 
+                            турист, проводящий свой активный отдых в Подмосковье.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery-layout" id="gallery">
+        <div class="container">
+            <div class="row text-center">
+                <div class="gallery-layout__box pt-5 pb-5">
+                    <h3 class="gallery-layout__title text-uppercase pt-3 pb-3">
+                        Москва в фотографиях
+                    </h3>
+                    <p class="gallery-layout__text pt-3 pb-5">
+                        Проще всего рассказать обо всем в фотографиях. 
+                        Смотрите наши фотоотчеты и присылайте нам свои фотографии.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-0 p-0 mw-100">
+            <div class="row m-0 p-0 wow animate__animated animate__fadeInUp">
+                <div class="col-lg-3 col-md-3 col-sm-3 m-0 p-0">
+                    <img class="gallery-layout__img" src="./assets/photos/gallery/moscow-1.jpg" alt="Moscow">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 m-0 p-0">
+                    <img class="gallery-layout__img" src="./assets/photos/gallery/moscow-2.jpg" alt="Moscow">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 m-0 p-0">
+                    <img class="gallery-layout__img" src="./assets/photos/gallery/moscow-3.jpg" alt="Moscow">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 m-0 p-0">
+                    <img class="gallery-layout__img" src="./assets/photos/gallery/moscow-4.jpg" alt="Moscow">
+                </div>
+            </div>
+            <div class="row m-0 p-0 wow animate__animated animate__fadeInUp animate__delay-1s">
+                <div class="col-lg-3 col-md-3 col-sm-3 m-0 p-0">
+                    <img class="gallery-layout__img" src="./assets/photos/gallery/moscow-5.jpg" alt="Moscow">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 m-0 p-0">
+                    <img class="gallery-layout__img" src="./assets/photos/gallery/moscow-6.jpg" alt="Moscow">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 m-0 p-0">
+                    <img class="gallery-layout__img" src="./assets/photos/gallery/moscow-7.jpg" alt="Moscow">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 m-0 p-0">
+                    <img class="gallery-layout__img" src="./assets/photos/gallery/moscow-8.jpg" alt="Moscow">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="row text-center">
+                <div class="reviews__box pt-5 pb-5">
+                    <h3 class="reviews__title text-uppercase pt-3 pb-3">
+                        Отзывы
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex justify-content-between text-white">
+                <div class="col-lg-5 pb-4">
+                    <div class="reviews__item wow animate__animated animate__fadeInLeft animate__delay-1s">
+                        <p class="reviews__text p-3">
+                            Были с дочкой и подругой на ночной экскурсии. 
+                            Все таки как много зависит от экскурсовода! 
+                            Мы все четыре часа ходили за Станиславом, 
+                            как кролики. Боялись пропустить хоть одно слово. 
+                            При этом моей дочке - которая побывала во многих местах и с детства 
+                            искушенная на интересные события - была сильно увлечена.
+                        </p>
+                        <div class="reviews__info__wrapper d-flex text-center align-items-center p-2">
+                            <img class="reviews__info__photo" src="./assets/testimonials/testimonial-1.jpg" alt="woman">
+                            <p class="reviews__info__name ml-3">Лера Петрова</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 pb-4">
+                    <div class="reviews__item wow animate__animated animate__fadeInRight animate__delay-1s">
+                        <p class="reviews__text p-3">
+                            Ездили на экскурсию с друзьями. 
+                            Всем очень понравилось! Экскурсовод Михаил 
+                            очень интересно, необычно и с юмором рассказывал о 
+                            Москве 16 века. Гибко подстраивал эксукурсию под интересы и 
+                            потребности слушателей, ловко «управлял» подачей автобуса, 
+                            не давая нам замёрзнуть.) Огромное спасибо!
+                        </p>
+                        <div class="reviews__info__wrapper d-flex text-center align-items-center p-2">
+                            <img class="reviews__info__photo" src="./assets/testimonials/testimonial-2.jpg" alt="men">
+                            <p class="reviews__info__name ml-3">Дмитрий Жуков</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us" id="contact">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="contact-us__item p-3">
+                        <span class="contact-us__title__box d-flex">
+                            <img class="contact-us__icon bg-white" src="./assets/icons/kremlin.png" alt="kremlin">
+                            <h4 class="contact-us__title text-uppercase text-white wow animate__animated animate__fadeInDown">
+                                My-Moscow
+                            </h4>
+                        </span>
+                        <p class="contact-us__text">
+                            Мы приглашаем тебя на самые разные экскурсии по Москве. 
+                            Автобусные и пешеходные, на целый день или на несколько часов, 
+                            на свежем воздухе или с заходом в здания - у нас в ассортименте 
+                            более 20 авторских экскурсий по Москве, выбирай и узнавай 
+                            Москву вместе с нами!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-us__item d-flex flex-column p-3">
+                        <h4 class="contact-us__title text-uppercase text-white wow animate__animated animate__fadeInDown">
+                            Контакты
+                        </h4>
+                        <address class="contact-us__address">
+                            Москва, Большая Спасская 24
+                        </address>
+                        <a class="contact-us__mail text-decoration-none text-white" href="mailto:moscow@imoscow.ru">
+                            moscow@imoscow.ru
+                        </a>
+                        <a class="contact-us__phone text-decoration-none text-white" href="tel:+84956552750">
+                            8 (495) 655-27-50
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-us__item p-3">
+                        <h4 class="contact-us__title text-uppercase text-white wow animate__animated animate__fadeInDown">
+                            Последние новости
+                        </h4>
+                        <div class="contact-us__text d-flex flex-column">
+                            Curabitur felis nibh, lacinia non rhoncus vel, 
+                            lobortis et lorem. Class aptent taciti sociosqu ad 
+                            litora torquent per conubia nostra, per inceptos himenaeos. 
+                            Suspendisse sit amet varius est, ut varius risus. 
+                            Integer sed aliquam sem. Suspendisse venenatis viverra 
+                            ipsum nec consecteturstandard dummy
+                            <span class="contact-us__date text-white">21 мая 2020</span>
+                        </div>
+                        <div class="contact-us__text d-flex flex-column">
+                            Curabitur felis nibh, lacinia non rhoncus vel, 
+                            lobortis et lorem. Class aptent taciti sociosqu ad 
+                            litora torquent per conubia nostra, per inceptos himenaeos. 
+                            Suspendisse sit amet varius est, ut varius risus. 
+                            Integer sed aliquam sem. Suspendisse venenatis viverra 
+                            ipsum nec consecteturstandard dummy
+                            <span class="contact-us__date text-white">11 февраля 2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="row justify-content-between p-4">
+                <div class="footer__item col-lg-3">
+                    &copy;2018 Copyright. Все права защищены
+                </div>
+                <div class="footer__item col-lg-2">
+                    Designed by Nordic IT School
+                </div>
+                <div class="footer__item col-lg-2 d-flex justify-content-center">
+                    <a class="footer__social-link" href="https://ru-ru.facebook.com/">
+                        <img class="footer__icon bg-white" src="./assets/icons/facebook.png" alt="facebook">
+                    </a>
+                    <a class="footer__social-link" href="https://www.instagram.com/">
+                        <img class="footer__icon bg-white" src="./assets/icons/instagram.png" alt="instagram">
+                    </a>
+                    <a class="footer__social-link" href="https://telegram.org/">
+                        <img class="footer__icon bg-white" src="./assets/icons/telegram.png" alt="telegram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <!-- /bootstrap script -->
+
+    <!-- wow.js -->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--/wow.js -->
+    
+</body>
+</html>

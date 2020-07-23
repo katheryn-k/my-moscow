@@ -1,0 +1,18 @@
+@import "colors.scss";
+
+.footer {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 11px;
+    color: $white__color;
+    background: $dark-gray__color;
+    &__item {
+        margin: 15px 0;
+    }
+    &__icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        padding: 2px;
+        border-radius: 3%;
+    }
+}
