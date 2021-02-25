@@ -1,4 +1,4 @@
-## [My-Moscow Travel Agency Template](https://katheryn-k.github.io/my-moscow/)
+## [My-Moscow Travel Agency - training project](https://katheryn-k.github.io/my-moscow/)
 
 Use:
 
