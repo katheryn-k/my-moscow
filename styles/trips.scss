@@ -4,78 +4,111 @@
 @import "footer.scss";
 
 .header {
-    background: url(../assets/photos/moscow-6.jpg) center center / cover no-repeat;
-}
-.main {
-    font-family: 'Tenor Sans', sans-serif;
-    background: $bg__color;
-    &__title::after {
-        content: "";
-        position: relative;
-        display: block;
-        width: 100px;
-        height: 2px;
-        margin: 15px auto;
-        border-radius: 50%;
-        background: $dark-gray__color;
-    }
-    &__content {
-        background: $copper-penny__color;
-    }
-    &__text__box {
-        margin: 30px;
-        line-height: 2;
-    }
-    &__photo {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    &__article {
-        padding: 20px;
-        &__title {
-            margin: 20px 0;
-            padding: 20px 0;
-        }
-    }
-    &__btn {
-        margin: 30px 20px;
-        padding: 10px;
-        outline: none;
-        border: 1px solid $dark-gray__color;
-        border-radius: 2%;
-        background: transparent;
-        transition: .3s all ease;
-        &:hover {
-            border: 1px solid transparent;
-            color: $white__color;
-            background: $dark-gray__color;
-        }
-    }
+  background-image: url(../assets/photos/moscow-6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #292828;
 }
 
+.main {
+  font-family: 'Tenor Sans', sans-serif;
+  background: $bg__color;
+
+  &__title::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 15px auto;
+    border-radius: 50%;
+    background: $dark-gray__color;
+  }
+
+  &__content {
+    background: $copper-penny__color;
+    justify-content: revert;
+  }
+
+  &__content--img {
+    order: unset;
+  }
+
+  &__content--img {
+    order: unset;
+  }
+
+  &__text__box {
+    margin: 30px;
+    line-height: 2;
+  }
+
+  &__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__article {
+    padding: 20px;
+
+    &__title {
+      margin: 20px 0;
+      padding: 20px 0;
+    }
+  }
+
+  &__btn {
+    margin: 30px 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid $dark-gray__color;
+    border-radius: 2%;
+    background: transparent;
+    transition: .3s all ease;
+
+    &:hover {
+      border: 1px solid transparent;
+      color: $white__color;
+      background: $dark-gray__color;
+    }
+  }
+}
+
+
 /* @media */
-@media screen and (max-width: 500px) {
-    .even {
-        order: 1;
+
+@media (max-width: 768px) {
+  .main__content--img {
+    order: 1 !important;
+  }
+  .main__content--text {
+    order: 2 !important;
+  }
+  .main__text__box {
+    margin: 10px;
+  }
+  .main__article {
+    padding: 10px;
+    word-break: break-word;
+
+    &__title {
+      text-align: center;
+      line-height: 1.5;
     }
-    .odd {
-        order: 2;
-    }
-    .main__text__box {
-        margin: 10px;
-    }
-    .main__article {
-        padding: 10px;
-        word-break: break-word;
-        &__title {
-            text-align: center;
-            line-height: 1.5;
-        }
-    }
-    .main__btn {
-        width: 100%;
-        margin: 20px 0;
-        padding: 10px;
-    }
+  }
+  .main__article__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+  }
+  .main__btn {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 40px auto;
+    padding: 10px;
+  }
 }
