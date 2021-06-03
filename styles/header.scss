@@ -2,48 +2,55 @@
 @import "colors.scss";
 
 .header {
-    font-family: 'Tenor Sans', sans-serif;
-    background-attachment: fixed;
-    box-shadow:0 100vh rgba(0, 0, 0, 0.625) inset;
-    &__logo {
-        max-width: 63px;
-        max-height: 63px;
-        border-radius: 50%;
+  font-family: 'Tenor Sans', sans-serif;
+  background-attachment: fixed;
+  box-shadow: 0 100vh rgba(0, 0, 0, 0.625) inset;
+
+  &__logo {
+    border-radius: 50%;
+  }
+
+  &__nav__link {
+    &::after {
+      content: "";
+      position: relative;
+      display: block;
+      width: 0px;
+      height: 2px;
+      margin: 2px auto;
+      border-radius: 50%;
+      background: $white__color;
+      transition: width .3s ease-in-out;
     }
-    &__nav__link{
-        &::after {
-            content: "";
-            position: relative;
-            display: block;
-            width: 0px;
-            height: 2px;
-            margin: 2px auto;
-            border-radius: 50%;
-            background: $white__color;
-            transition: width .3s ease-in-out;
-        }
-        &:hover::after,
-        &:focus::after {
-            width: 70px;
-        }
+
+    &:hover::after,
+    &:focus::after {
+      width: 70px;
     }
-    &__navbar__toggler {
-        background: $white__color;
+  }
+
+  &__navbar__toggler {
+    background: $white__color;
+  }
+
+  &__toggler {
+    border-radius: 5%;
+  }
+
+  &__collapse {
+    transition: display .2s ease-in-out;
+  }
+
+  &__navbar-nav {
+    right: 0;
+  }
+
+  &__content {
+    top: 200px;
+
+    &__title {
+      margin-top: 50px;
+      font-size: 7vw;
     }
-    &__toggler {
-        border-radius: 5%;
-    }
-    &__collapse {
-        transition: display .2s ease-in-out;
-    }
-    &__navbar-nav {
-        right: 0;
-    }
-    &__content {
-        top: 200px;
-        &__title {
-            margin-top: 50px;
-            font-size: 7vw;
-        }
-    }
+  }
 }
